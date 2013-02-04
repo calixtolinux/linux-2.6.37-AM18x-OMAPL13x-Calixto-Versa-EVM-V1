@@ -1,0 +1,1 @@
+cmd_net/netfilter/built-in.o :=  arm-arago-linux-gnueabi-ld -EL    -r -o net/netfilter/built-in.o net/netfilter/netfilter.o net/netfilter/nf_conntrack.o net/netfilter/x_tables.o net/netfilter/xt_tcpudp.o 

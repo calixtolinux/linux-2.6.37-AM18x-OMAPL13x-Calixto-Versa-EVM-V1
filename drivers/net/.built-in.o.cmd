@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  arm-arago-linux-gnueabi-ld -EL    -r -o drivers/net/built-in.o drivers/net/mii.o drivers/net/phy/built-in.o drivers/net/davinci_emac.o drivers/net/davinci_mdio.o drivers/net/davinci_cpdma.o drivers/net/Space.o drivers/net/loopback.o drivers/net/arm/built-in.o drivers/net/wireless/built-in.o drivers/net/netconsole.o 
