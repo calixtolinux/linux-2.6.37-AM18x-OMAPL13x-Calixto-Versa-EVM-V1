@@ -31,5 +31,8 @@ Eg:
              -> [*] Calixto-EVM Pheripheral Configuration
                     ->    Calixto-EVM Display Support (Enable Different LCD Size Configuration Eg: 4.7inch, VGA Mode)
 
+4> Calixto Board Map File
+   a> arch/arm/mach-davinci/board-calixto-evm.c
+
 -> Any More Quires Email @: support@calixto.co.in
 -> More Product Details Log on to :www.calixto.co.in
