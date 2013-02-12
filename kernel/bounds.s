@@ -15,13 +15,13 @@
 @ options passed:  -nostdinc
 @ -I/home/shyam/calixto/Git_Controlled_Kernel/linux-2.6.37-calixto-versa-evm-v1/arch/arm/include
 @ -Iinclude -Iarch/arm/mach-davinci/include -iprefix
-@ /home/shyam/calixto/ti-sdk-am180x-evm/linux-devkit/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/
+@ /home/shyam/calixto/ti-sdk-am335x-evm/linux-devkit/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/
 @ -isysroot
-@ /home/shyam/calixto/ti-sdk-am180x-evm/linux-devkit/bin/../arm-arago-linux-gnueabi
+@ /home/shyam/calixto/ti-sdk-am335x-evm/linux-devkit/bin/../arm-arago-linux-gnueabi
 @ -D__KERNEL__ -D__LINUX_ARM_ARCH__=5 -Uarm -DCC_HAVE_ASM_GOTO
 @ -DKBUILD_STR(s)=#s -DKBUILD_BASENAME=KBUILD_STR(bounds)
 @ -DKBUILD_MODNAME=KBUILD_STR(bounds) -isystem
-@ /home/shyam/calixto/ti-sdk-am180x-evm/linux-devkit/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include
+@ /home/shyam/calixto/ti-sdk-am335x-evm/linux-devkit/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include
 @ -include include/generated/autoconf.h -MD kernel/.bounds.s.d
 @ kernel/bounds.c -mlittle-endian -marm -mapcs -mno-sched-prolog
 @ -mabi=aapcs-linux -mno-thumb-interwork -march=armv5te -mtune=arm9tdmi
@@ -61,7 +61,7 @@
 @ -ftree-vect-loop-version -ftree-vrp -funit-at-a-time -fverbose-asm
 @ -fzero-initialized-in-bss -mapcs-frame -mglibc -mlittle-endian
 
-@ Compiler executable checksum: bcacbb06f2c1dc8d6db3a656c6637076
+@ Compiler executable checksum: eccb13952c132b1f6e0049977566584f
 
 	.text
 	.align	2
